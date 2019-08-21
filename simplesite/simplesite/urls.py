@@ -19,5 +19,5 @@ from bboard.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bboard/', include('bboard.urls')),
+    path('', include('bboard.urls')),
 ]
